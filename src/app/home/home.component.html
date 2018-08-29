@@ -1,0 +1,13 @@
+<h1>Welcome to Prodtrak</h1>
+<div *ngIf="userInfo">
+  <ul>
+    <li class= "user-info-list" *ngFor= "let user of userInfo">
+      <div class = "user-info-card">
+        <h2>{{user.user.firstName}} {{user.user.lastName}}</h2>
+        <span>{{user.courses.length}} courses registered</span>
+        <span>{{user.user.universityName}}</span>
+      </div>
+    </li>
+  </ul>
+</div>
+  <app-user-overview></app-user-overview>

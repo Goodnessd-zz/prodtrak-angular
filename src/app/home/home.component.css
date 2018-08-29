@@ -1,0 +1,12 @@
+.user-info-list {
+  list-style-type: none;
+  padding: 2rem;
+}
+
+.user-info-card card {
+  background-color: blue;
+}
+
+.user-info-card span{
+  display: block;
+}
