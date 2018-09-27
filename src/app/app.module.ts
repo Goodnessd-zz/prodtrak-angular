@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { UserOverviewComponent } from './user-overview/user-overview.component';
 import { HttpClientModule } from '@angular/common/http';
+import { UserInfoCardComponent } from './user-info-card/user-info-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     LoginComponent,
     HomeComponent,
-    UserOverviewComponent
+    UserOverviewComponent,
+    UserInfoCardComponent
   ],
   imports: [
     BrowserModule,

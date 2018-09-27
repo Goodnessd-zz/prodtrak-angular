@@ -1,0 +1,7 @@
+.user-info-card{
+  border: 1px solid black;
+  margin: 3rem;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}

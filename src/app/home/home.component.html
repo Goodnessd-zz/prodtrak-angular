@@ -1,13 +1,16 @@
-<h1>Welcome to Prodtrak</h1>
-<div *ngIf="userInfo">
-  <ul>
-    <li class= "user-info-list" *ngFor= "let user of userInfo">
-      <div class = "user-info-card">
-        <h2>{{user.user.firstName}} {{user.user.lastName}}</h2>
-        <span>{{user.courses.length}} courses registered</span>
-        <span>{{user.user.universityName}}</span>
-      </div>
-    </li>
-  </ul>
+<div class="homepage">
+  <div class = "welcome-title">
+    <h3>Welcome to</h3> 
+    <h1>Prodtrak</h1>
+  </div>
+<hr>
+  <div class = "user-info">
+    <h2>Current Users</h2>
+      <ul class="user-info-list" *ngIf="userInfo">
+        <ng-container *ngFor = "let user of userInfo">
+          <app-user-info-card [user] = "user"></app-user-info-card>
+        </ng-container>
+      </ul>
+  </div>
+    <app-user-overview></app-user-overview>
 </div>
-  <app-user-overview></app-user-overview>

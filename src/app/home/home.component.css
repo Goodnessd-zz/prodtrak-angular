@@ -1,12 +1,21 @@
+.welcome-title{
+  text-align: center;
+  font-size: xx-large;
+  text-align: center;
+}
+
+h2{
+  padding: 10px;
+  text-align: center;
+}
+.user-info{
+  background-color: lightgray;
+}
+
 .user-info-list {
   list-style-type: none;
-  padding: 2rem;
-}
 
-.user-info-card card {
-  background-color: blue;
-}
-
-.user-info-card span{
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
