@@ -1,6 +1,24 @@
-nav a {
-  padding:5px 10px;
-  background-color: #eee;
-  border-radius: 4px;
-  display: inline-block;
+.app{
+  width: 80%;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+  list-style: none;
+  margin: 0;
+
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  
+  margin: auto;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 2rem;
+  color: black;
+  font-size: 36px;
 }
