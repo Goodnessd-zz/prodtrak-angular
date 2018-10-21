@@ -35,7 +35,7 @@ jobs:
         
       # run tests!
       - run: npm run test:ci 
-      
-      - run_e2e: npm run e2e:ci
+
+      - run: npm run e2e:ci
 
 
